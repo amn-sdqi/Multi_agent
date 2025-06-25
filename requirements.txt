@@ -1,0 +1,7 @@
+langchain 
+langchain-community 
+langchain-core 
+transformers 
+langchain-google-genai 
+google-generativeai
+jq 
