@@ -7,7 +7,7 @@ import tempfile
 from analyzer import load_csv_texts, load_json_texts, analyze_texts
 from summarize import summarize_results
 
-app = FastAPI(title="Sentiment & Emotion Agent")
+# app = FastAPI(title="Sentiment & Emotion Agent")
 
 
 @tool(return_direct=True)
