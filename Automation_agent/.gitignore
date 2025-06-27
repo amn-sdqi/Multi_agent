@@ -1,4 +1,4 @@
-# Ignore sensitive files
-Automation_agent/token.json
-Automation_agent/Credentials.json
-Automation_agent/.env
+token.json
+Credentials.json
+.env
+.gitignore
