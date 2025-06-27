@@ -22,11 +22,11 @@ def analysis_tool(text: str) -> dict:
     Analyze the input text and return sentiment + primary emotion.
     """
     
-    sentiment = list(sentiment_pipeline(text))[0]
-    emotion = list(emotion_pipeline(text))[0]
+    sentiment = list(sentiment_pipeline(text))[0] # type: ignore
+    emotion = list(emotion_pipeline(text))[0]  # type: ignore
     return {
-        "Sentiment": {"label": sentiment["label"]},
-        "Emotion": {"label": emotion[0]["label"]},
+        "Sentiment": {"label": sentiment["label"]},  # type: ignore
+        "Emotion": {"label": emotion[0]["label"]},  # type: ignore
     }
 
 

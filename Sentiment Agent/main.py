@@ -1,6 +1,7 @@
 # app.py
 from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.responses import JSONResponse
+from langchain_core.tools import tool
 import tempfile
 
 from analyzer import load_csv_texts, load_json_texts, analyze_texts
@@ -9,8 +10,8 @@ from summarize import summarize_results
 app = FastAPI(title="Sentiment & Emotion Agent")
 
 
-@app.post("/sentiment-analysis/")
-async def analyze_file(
+@tool(return_direct=True)
+async def sentiment_init(
     file: UploadFile = File(...),
     file_type: str = Form(...),  # 'csv' or 'json'
     jq_schema: str = Form(".messages[].review"),  # Optional for JSON
@@ -32,7 +33,4 @@ async def analyze_file(
     results = analyze_texts(texts)
     summary = summarize_results(results)
 
-    return {
-        "summary": summary
-        # "results": results
-        }
+    return {"summary": summary, "results": results}
