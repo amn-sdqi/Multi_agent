@@ -14,3 +14,8 @@ google-auth-httplib2
 google-auth-oauthlib
 re 
 json  
+langchain_groq
+matplotlib
+numpy
+pandas
+seaborn
