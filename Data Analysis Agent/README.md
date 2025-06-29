@@ -1,7 +1,7 @@
 ---
 # Data Analysis Agent
 
-An intelligent, CLI-based multi-functional **data analysis assistant** powered by LLMs, `LangChain`, and `pandas`. It helps users explore datasets using **natural language queries**, generate **code**, produce **visualizations**, and even suggest exploratory questions.
+A **data analysis agent** powered by LLMs, `LangChain`, and `pandas`. It helps users explore datasets using **natural language queries**, generate **code**, produce **visualizations**, and even suggest exploratory questions.
 
 ---
 
@@ -75,7 +75,7 @@ An intelligent, CLI-based multi-functional **data analysis assistant** powered b
 
 ---
 
-## 📎 Example Queries
+## Example Queries
 
 * `What is the average salary by department?`
 * `Describe the dataset`
