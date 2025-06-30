@@ -1,4 +1,4 @@
-📘 Final Investment Report:
+# 📘 Final Investment Report:
 
 ## 📊 Summary of Stock Performance
 The 6-month performance of the given stocks is as follows:
