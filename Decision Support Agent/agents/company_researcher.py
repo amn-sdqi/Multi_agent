@@ -44,8 +44,8 @@ agent = initialize_agent(
 # Main callable function
 def research_company(symbol: str) -> str:
     try:
-        logger.info(f"🔍 Researching company: {symbol}")
+        logger.info(f"Researching company: {symbol}")
         return agent.invoke(f"Provide a detailed fundamental and recent news analysis for the stock ticker: {symbol}")
     except Exception as e:
-        logger.error(f"❌ Failed to research company {symbol}: {e}")
+        logger.error(f"Failed to research company {symbol}: {e}")
         return f"Could not retrieve information for {symbol}."
