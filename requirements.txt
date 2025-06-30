@@ -19,3 +19,8 @@ matplotlib
 numpy
 pandas
 seaborn
+yfinance
+plotly
+kaleido
+astunparse
+httpx
