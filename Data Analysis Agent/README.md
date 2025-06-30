@@ -75,7 +75,7 @@ graph TD
     
     A --> R[Suggestions Request]
     R --> S[Generate Analysis Suggestions]
-    S --> T[Display Suggestions List]
+    S --> T[Display Suggested Queries]
     
     style A fill:#4CAF50,stroke:#333
     style K fill:#F44336,stroke:#333,color:#fff
