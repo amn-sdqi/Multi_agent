@@ -1,0 +1,16 @@
+langchain
+langchain-core
+langchain-community
+langchain-groq
+tiktoken
+python-dotenv
+
+yfinance
+pandas
+numpy
+
+plotly
+kaleido
+
+astunparse
+httpx

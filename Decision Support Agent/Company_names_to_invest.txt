@@ -1,0 +1,75 @@
+# Top 50 Valid Company Names for Stock Investment
+
+## Technology
+
+Apple
+Microsoft
+Alphabet (Google)
+Amazon
+Meta Platforms (Facebook)
+Nvidia
+Tesla
+Intel
+AMD (Advanced Micro Devices)
+Cisco Systems
+
+## Finance
+
+JPMorgan Chase
+Bank of America
+Goldman Sachs
+Wells Fargo
+Morgan Stanley
+
+## Consumer Goods / Retail
+
+Procter & Gamble
+Walmart
+Costco
+Target
+Coca-Cola
+PepsiCo
+Nike
+McDonald’s
+Starbucks
+Mondelez International
+
+## Healthcare
+
+Johnson & Johnson
+Pfizer
+Merck & Co.
+Abbott Laboratories
+UnitedHealth Group
+
+## Energy
+
+ExxonMobil
+Chevron
+Shell
+BP
+TotalEnergies
+
+## Industrial / Manufacturing
+
+General Electric
+Caterpillar
+3M
+Honeywell
+Boeing
+
+## Telecom / Media
+
+Verizon
+AT&T
+Comcast
+Disney
+Netflix
+
+## International Giants
+
+Samsung Electronics (South Korea)
+Toyota (Japan)
+Alibaba (China)
+Nestlé (Switzerland)
+Reliance Industries (India)
