@@ -1,4 +1,3 @@
----
 # Data Analysis Agent
 
 A professional modular data analysis agent that leverages LLMs (Large Language Models) to perform complex data analysis tasks through natural language queries.
