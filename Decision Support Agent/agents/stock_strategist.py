@@ -63,22 +63,3 @@ Final Answer: [TICKER] because [your reasoning]
     except Exception as e:
         logger.error(f"❌ Stock recommendation failed: {e}")
         return "Unable to generate stock recommendations at the moment."
-
-
-
-
-# # Agent function
-# def recommend_stocks(analysis_data: dict):
-#  #data: str) -> str:
-#     try:
-#         logger.info("💡 Recommending stocks based on analysis...")
-#         formatted_input = json.dumps(analysis_data, indent=2)
-#         prompt = (
-#         f"You're a financial advisor. Given this investment analysis data:\n{formatted_input}\n\n"
-#         f"Please recommend the best stock(s) to invest in and justify your recommendation clearly."
-#         )
-#         return agent.run(prompt)
-#         # return agent.invoke(f"Based on this analysis: {data}, which stocks should be invested in?")
-#     except Exception as e:
-#         logger.error(f"❌ Stock recommendation failed: {e}")
-#         return "Unable to generate stock recommendations at the moment."
