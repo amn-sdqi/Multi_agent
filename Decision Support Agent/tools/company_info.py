@@ -16,14 +16,14 @@ def get_company_info(symbol: str) -> str:
         summary = info.get("longBusinessSummary", "N/A")
 
         return (
-            f"📌 **Company Name:** {name}\n"
-            f"🏢 **Sector:** {sector}\n"
-            f"💰 **Market Cap:** {market_cap}\n"
-            f"📝 **Summary:** {summary}"
+            f" **Company Name:** {name}\n"
+            f" **Sector:** {sector}\n"
+            f" **Market Cap:** {market_cap}\n"
+            f" **Summary:** {summary}"
         )
 
     except Exception as e:
-        return f"❌ Error retrieving info for {symbol}: {e}"
+        return f" Error retrieving info for {symbol}: {e}"
 
 def get_company_news(symbol: str) -> str:
     """Returns the latest 5 news headlines for a company as a string."""
@@ -35,7 +35,7 @@ def get_company_news(symbol: str) -> str:
             return f"No news available for {symbol}."
 
         headlines = [item.get("title", "No Title") or item.get("headline") or item.get("link")  for item in news_data[:5]]
-        return f"📰 Latest News for {symbol}:\n" + "\n".join(f"- {title}" for title in headlines)
+        return f" Latest News for {symbol}:\n" + "\n".join(f"- {title}" for title in headlines)
 
     except Exception as e:
-        return f"❌ Error fetching news for {symbol}: {e}"
+        return f" Error fetching news for {symbol}: {e}"
