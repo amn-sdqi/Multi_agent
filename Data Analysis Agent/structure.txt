@@ -5,8 +5,8 @@ data_analysis_agnet/
 │   └── settings.py         # All configuration in one place
 ├── core/
 │   ├── __init__.py
-├── ├── state.py
-│   ├── llm.py             # Simple LLM initialization (no fallbacks)
+├── ├── state.py           # Global state management
+│   ├── llm.py             # Simple LLM initialization 
 │   ├── data_loader.py     # Dataset loading utilities
 │   └── executor.py        # Code execution engine
 ├── tools/
