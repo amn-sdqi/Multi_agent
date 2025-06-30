@@ -189,16 +189,11 @@ All configuration is managed through `config/settings.py` and `.env`:
 
 ---
 
-## Requirements
+## Install the required dependencies using the provided requirements.txt:
 
-- Python 3.8+
-- pandas
-- numpy
-- langchain_groq
-- matplotlib
-- seaborn
-- python-dotenv
-- IPython
+```
+pip install -r requirements.txt
+```
 
 ---
 
