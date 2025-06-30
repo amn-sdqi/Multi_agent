@@ -23,13 +23,13 @@ def main(user_query):
 
     # Step 3: If parsing was successful, use the ticker tool
     if company_list:
-        print(f"\n✅ Valid Companies Found: {company_list}")
+        print(f"\n Valid Companies Found: {company_list}")
         company_string = ", ".join(company_list)
 
         ticker_tool = TickerLookupTool()
         ticker_result = ticker_tool._run(company_string)
 
-        print("\n🎯 Ticker Result:", ticker_result)
+        print("\n Ticker Result:", ticker_result)
 
         # Step 3: If ticker_result is valid, generate report
         if "Invalid company names" not in ticker_result:
@@ -44,17 +44,17 @@ def main(user_query):
             plot_path = generate_stock_performance_plot(ticker_dict)
 
             # 4. Print report and plot info
-            print("\n📘 Final Investment Report:\n")
+            print("\n Final Investment Report:\n")
             print(report)
-            print(f"\n🖼️ Plot saved at: {plot_path}")
+            print(f"\n Plot saved at: {plot_path}")
 
         else:
-            print("\n❌ Ticker lookup failed. Please re-enter with valid company names.")
+            print("\n Ticker lookup failed. Please re-enter with valid company names.")
 
 
     else:
         # If parsing failed, just print the raw response
-        print("\n❌ Invalid query or not enough valid company names.")
+        print("\n Invalid query or not enough valid company names.")
         print("Raw LLM Response:", raw_response)
 
 
