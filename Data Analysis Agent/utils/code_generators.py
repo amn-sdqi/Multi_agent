@@ -95,13 +95,17 @@ Generate visualization code:
 def generate_summary(query: str, result: str, code: str = "") -> str:
     """Generate result summary."""
     prompt = f"""
-Provide insights about this analysis result (2-3 sentences):
+You are a data analyst assistant.
+
+Given the following query, its analysis result (as a table or value), and the code used to get it — your job is to write a 2-3 sentence summary that answers the user's question directly and clearly.
+
+Do NOT explain how the result was calculated. Focus ONLY on summarizing the result.
 
 Query: {query}
 Result: {str(result)[:500]}
 Code: {code}
 
-Summary:
+Final Summary:
 """
     
     try:
