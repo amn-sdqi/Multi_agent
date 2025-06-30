@@ -36,27 +36,27 @@ def compile_final_report(market_analysis, company_analyses, recommendations):
 You are the Team Lead AI for Investment Strategy. Your job is to compile a final **professional and user-friendly** investment report using the following input data:
 
 =========================
-📈 Market Analysis:
+Market Analysis:
 {market_analysis}
 
-🏢 Company Analyses:
+Company Analyses:
 {company_analyses}
 
-🧠 Stock Recommendations:
+Stock Recommendations:
 {recommendations}
 =========================
 
 Now, based on the above, write a structured and well-formatted investment report that includes:
 
-1. **📊 Summary of Stock Performance** (brief and comparative)
-2. **🧩 Key Company Insights** (1–2 lines for each company)
-3. **⚖️ Risk–Reward Assessment** (mention if data is missing or unclear)
-4. **✅ Final Recommendation**:
+1. ** Summary of Stock Performance** (brief and comparative)
+2. ** Key Company Insights** (1–2 lines for each company)
+3. ** Risk–Reward Assessment** (mention if data is missing or unclear)
+4. ** Final Recommendation**:
    - Top 1–2 stock(s) to invest in
    - Justification based on the data
 5. **Rank stocks** (from best to worst recommendation)
     like : Apple > Microsoft > Google 
-🪄 Please format the response clearly using **headings**, **bullet points**, and **rankings if relevant**. Keep the tone professional and informative, suitable for business stakeholders.
+ Please format the response clearly using **headings**, **bullet points**, and **rankings if relevant**. Keep the tone professional and informative, suitable for business stakeholders.
 
 Output should feel like a polished executive summary. Be concise but insightful.
 """
