@@ -38,10 +38,10 @@ agent = initialize_agent(
 # Main function to recommend stocks
 def recommend_stocks(analysis_data: dict):
     try:
-        logger.info("💡 Recommending stocks based on analysis...")
+        logger.info("Recommending stocks based on analysis...")
         formatted_input = json.dumps(analysis_data, indent=2)
         
-        # ✅ Updated prompt
+        # Prompt
         prompt = f"""
 You're a financial investment strategist.
 
@@ -54,12 +54,12 @@ Based on the above data:
 - Consider market performance, company fundamentals, and risks.
 - Be concise and insightful.
 
-🚨 IMPORTANT: End your output with
+IMPORTANT: End your output with
 Final Answer: [TICKER] because [your reasoning]
 """
 
         return agent.run(prompt)
     
     except Exception as e:
-        logger.error(f"❌ Stock recommendation failed: {e}")
+        logger.error(f"Stock recommendation failed: {e}")
         return "Unable to generate stock recommendations at the moment."
