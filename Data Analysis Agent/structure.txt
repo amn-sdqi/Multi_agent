@@ -1,0 +1,24 @@
+data_analysis_agnet/
+├── main.py                 # Entry point - clean and simple
+├── config/
+│   ├── __init__.py
+│   └── settings.py         # All configuration in one place
+├── core/
+│   ├── __init__.py
+├── ├── state.py
+│   ├── llm.py             # Simple LLM initialization (no fallbacks)
+│   ├── data_loader.py     # Dataset loading utilities
+│   └── executor.py        # Code execution engine
+├── tools/
+│   ├── __init__.py
+│   ├── analysis_tool.py   # Smart analysis tool
+│   ├── visualization_tool.py # Visualization tool
+│   └── suggestion_tool.py # Suggestion tool
+├── utils/
+│   ├── __init__.py
+│   ├── formatters.py      # Result formatting utilities
+│   ├── code_generators.py # Code generation utilities
+│   └── file_handlers.py   # File handling utilities
+└── agents/
+    ├── __init__.py
+    └── agent_manager.py   # Agent initialization and management

@@ -1,0 +1,22 @@
+- Basic Statistical Questions
+What is the average top speed of the cars?
+Which brand has the highest average range?
+What is the minimum and maximum acceleration 0-100 time?
+
+- Comparative Analysis
+Compare average battery capacity of Abarth vs Aiways cars.
+Which car segment (e.g., B - Compact, JB - Compact) has the highest average range?
+
+- Visualizations
+Plot a bar chart of brands vs their average range.
+Plot a scatter plot of battery capacity vs range.
+Show a histogram of top speeds.
+
+- Filtering/Insights
+List the cars with acceleration 0-100 under 6 seconds.
+Which cars support fast charging power above 75 kW?
+What is the average cargo volume for SUVs?
+
+- Advanced Combinations
+Show a boxplot of acceleration times for each car body type.
+Which drivetrain has better average efficiency?
